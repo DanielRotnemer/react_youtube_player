@@ -12,7 +12,8 @@ class SearchBar extends React.Component
 
     onFormSubmit = (event) => {   
         event.preventDefault();
-        this.props.onVideoSearchSubmit(this.state.term);    
+        this.props.onVideoSearchSubmit(this.state.term);  
+        this.fourthCommit = 5;  
     };
 
     render()    
