@@ -10,12 +10,12 @@ class SearchBar extends React.Component
         console.log(this.state.term);
     };
 
-    onFormSubmit = (event) => {
+    onFormSubmit = (event) => {   
         event.preventDefault();
-        this.props.onVideoSearchSubmit(this.state.term);
+        this.props.onVideoSearchSubmit(this.state.term);    
     };
 
-    render()
+    render()    
     {
         return (            
             <div className="search-cont">
