@@ -1,0 +1,32 @@
+.item {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    left: 0;
+    width: 100%;
+}
+.itemImg {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    left: 0;
+}
+.content {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.header {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-family: Arial;
+    font-size: medium;
+    color: #454545;
+}
